@@ -5,34 +5,39 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="name">
-            <h1>Alec Jandorek</h1>
-        </div>
-        <div class="navigation">
-            <a href="index.html">About</a> |
-            <a href="portfolio.html"> Portfolio</a> |
-            <a href="contact.html"> Contact</a>
-        </div>
-    </nav>
-    <section class="main">
-        <h2>Portfolio</h2>
-        <hr />
-        <img src="https://placeimg.com/250/200/tech" alt="hangman project" /><span>Hangman</span>
-        <img src="https://placeimg.com/250/200/tech" alt="RPG Game project" /><span>RPG Game</span><br />
-        <img src="https://placeimg.com/250/200/tech" alt="hangman project" /><span>Trivia Game</span>
-        <img src="https://placeimg.com/250/200/tech" alt="RPG Game project" /><span>Rutgers Info Widget</span><br />
-        <img src="https://placeimg.com/250/200/tech" alt="hangman project" /><span>Rock Paper Scissors</span>
+    <header>
+            <div class="name">
+                <h1><a href="index.html" class="logo">Alec Jandorek</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li class="divider">|</li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li class="divider">|</li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="container">
+    <section class="main-portfolio">
+        <h2 class="portfolio">Portfolio</h2>
+        <hr class="maindivider" />
+        <div class="portfolioimage"><img src="assets/images/placeholder1.jpeg" alt="hangman project" /><p class="titles">Hangman</p></div>
+        <div class="portfolioimage" ><img src="assets/images/placeholder2.jpeg" alt="RPG Game project" /><p class="titles">RPG Game</p></div>
+        <div class="portfolioimage" ><img src="assets/images/placeholder3.jpeg" alt="hangman project" /><p class="titles">Trivia Game</p></div>
+        <div class="portfolioimage" ><img src="assets/images/placeholder4.jpeg" alt="RPG Game project" /><p class="titles">Rutgers Info Widget</p></div>
+        <div class="portfolioimage" ><img src="assets/images/placeholder5.jpeg" alt="hangman project" /><p class="titles">Rock Paper Scissors</p></div>
     </section>
     <section class="sidebar">
         <h3>Connect with me</h3>
-        <hr />
-            <img src="assets/images/github-8-64.png" alt="github logo" />
-            <img src="assets/images/stackoverflow-3-64.png" alt="stackoverflow logo" />
-            <img src="assets/images/linkedin-3-64.png" alt="LinkedIn logo" />
+        <hr class="sidebardivider"/>
+            <a href="https://github.com/ajandorek" target="_blank"><img src="assets/images/github-8-64.png" alt="github logo" class="connect" /></a>
+            <a href="http://stackoverflow.com/users/6867638/alec-john-jandorek" target="_blank"><img src="assets/images/stackoverflow-3-64.png" alt="stackoverflow logo" class="connect" /></a>
+            <a href="https://www.linkedin.com/in/alecjandorek" target="_blank"><img src="assets/images/linkedin-3-64.png" alt="LinkedIn logo" class="connect" /></a>
     </section>
+    </div>
     <footer>
-        <hr />
         <p class="footerinfo">&copy; Copyright 2016 Alec Jandorek</p>
     </footer>
 </body>

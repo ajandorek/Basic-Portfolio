@@ -5,20 +5,25 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="name">
-            <h1>Alec Jandorek</h1>
-        </div>
-        <div class="navigation">
-            <a href="index.html">About</a> |
-            <a href="portfolio.html"> Portfolio</a> |
-            <a href="contact.html"> Contact</a>
-        </div>
-    </nav>
+    <header>
+            <div class="name">
+                <h1><a href="index.html" class="logo">Alec Jandorek</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li class="divider">|</li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li class="divider">|</li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="container">
     <section class="main">
-        <form>
-            <h2>Contact</h2>
-            <hr />
+        <h2 class="contact">Contact</h2>
+        <hr class="maindivider" />
+            <form>    
                 <label>Name</label><br />
                 <input type="text" name="name"><br />
                 <label>Email</label><br />
@@ -27,16 +32,17 @@
                 <textarea type="text" name="message">
                 </textarea><br />
                 <button type="submit">Submit</button>
+            </form>
     </section>
     <section class="sidebar">
         <h3>Connect with me</h3>
-        <hr />
-            <img src="assets/images/github-8-64.png" alt="github logo" />
-            <img src="assets/images/stackoverflow-3-64.png" alt="stackoverflow logo" />
-            <img src="assets/images/linkedin-3-64.png" alt="LinkedIn logo" />
+        <hr class="sidebardivider"/>
+            <a href="https://github.com/ajandorek" target="_blank"><img src="assets/images/github-8-64.png" alt="github logo" class="connect" /></a>
+            <a href="http://stackoverflow.com/users/6867638/alec-john-jandorek" target="_blank"><img src="assets/images/stackoverflow-3-64.png" alt="stackoverflow logo" class="connect" /></a>
+            <a href="https://www.linkedin.com/in/alecjandorek" target="_blank"><img src="assets/images/linkedin-3-64.png" alt="LinkedIn logo" class="connect" /></a>
     </section>
+    </div>
     <footer>
-        <hr />
         <p class="footerinfo">&copy; Copyright 2016 Alec Jandorek</p>
     </footer>
 </body>
